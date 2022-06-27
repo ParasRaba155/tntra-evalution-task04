@@ -1,0 +1,34 @@
+.MyTable {
+  margin : 85px  65px;
+}
+
+
+.MyTable th{
+  border : solid black;
+  padding:15px 180px 15px 180px;
+  text-align: center;
+  background-color: aqua;
+}
+
+.MyTable td{
+  border : solid black;
+  padding : 15px 180px 15px 180px;
+}
+
+.selector {
+  padding-right: 150px;
+  margin-right: 20px ;
+  text-align: left;
+  border-radius: 0;
+}
+
+.delete_but {
+  background-color: rgba(255, 0, 0, 0.829);
+  padding: 5px 9px 3px 9px;
+  text-align: center;
+}
+
+#add_button {
+  margin: 0px 65px;
+  padding: 5px 60px 5px 60px;
+}
