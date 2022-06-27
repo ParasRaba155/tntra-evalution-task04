@@ -25,7 +25,7 @@ function appendRows(event){
     if(!row3_flag && !row2_flag && document.getElementById('row2').style.display === '' && document.getElementById('row3').style.display === ''){
         document.getElementById('row1').style.display = ''
     }
-    event.preventDefalut();
+    event.preventDefault();
 }
 
 const add = document.getElementById("add_button");
@@ -41,7 +41,7 @@ selector2.addEventListener('change',disableDropdown);
 selector3.addEventListener('change',disableDropdown);
 
 function disableDropdown(event){
-    event.preventDefalut();
+    event.preventDefault();
 
     let s1_val = document.querySelector('#selector1').value;
 
