@@ -27,7 +27,11 @@
   padding: 5px 9px 3px 9px;
   text-align: center;
 }
-
+/* .new {
+  background-color: rgba(255, 0, 0, 0.829);
+  padding: 5px 9px 3px 9px;
+  text-align: center;
+} */
 #add_button {
   margin: 0px 65px;
   padding: 5px 60px 5px 60px;

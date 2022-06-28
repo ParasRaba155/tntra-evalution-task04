@@ -38,7 +38,7 @@ let selector3 = document.getElementById('selector3');
 
 selector1.addEventListener('change',disableDropdown);
 selector2.addEventListener('change',disableDropdown);
-selector3.addEventListener('change',disableDropdown);
+selector3.addEventListener('change',disableDropdown);   
 
 function disableDropdown(event){
     event.preventDefault();
